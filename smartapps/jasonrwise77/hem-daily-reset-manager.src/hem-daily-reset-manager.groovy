@@ -20,8 +20,9 @@ definition(
     author: "Jason Wise",
     description: "Resets the Energy Monitor Daily on a specified time",
     category: "My Apps",
-    iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon-small.png",
-    iconX2Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon-large.png")
+    iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon.png",
+    iconX2Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon.png"
+    iconX3Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon.png")
 
 preferences {
     section("Choose an Energy Meter to reset:") {
