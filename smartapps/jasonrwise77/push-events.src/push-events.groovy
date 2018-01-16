@@ -1,5 +1,5 @@
 /**
- * Copyright 2017 Hubitat Environmental Inc.  All Rights Reserved.
+ * Push Events
  */
 definition(
     name: "Push Events",
