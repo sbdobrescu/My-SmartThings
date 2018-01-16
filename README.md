@@ -1,1 +1,2 @@
-# HEM-Reset this is a test
+# HEM-Reset 
+Hem Daily Reset Manager
