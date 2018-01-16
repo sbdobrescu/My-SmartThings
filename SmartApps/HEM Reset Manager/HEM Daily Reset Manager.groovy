@@ -1,5 +1,5 @@
 /**
- *  Daily Energy Meter Reset Manager
+ *  HEM Daily Reset Manager
  *
  *  Copyright 2017
  *
@@ -15,9 +15,9 @@
  *
  */
 definition(
-    name: "Daily Energy Meter Reset Manager",
+    name: "HEM Daily Reset Manager"
     namespace: "jasonrwise77",
-    author: "jasonrwise77",
+    author: "Jason Wise",
     description: "Resets the Energy Monitor Daily on a specified time",
     category: "My Apps",
     iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
