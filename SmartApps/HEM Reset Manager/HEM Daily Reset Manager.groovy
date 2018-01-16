@@ -20,8 +20,8 @@ definition(
     author: "Jason Wise",
     description: "Resets the Energy Monitor Daily on a specified time",
     category: "My Apps",
-    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
-    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png")
+    iconUrl: "My-SmartThings/SmartApps/HEM Reset Manager/Icon Small.pngonvenience%402x.png"",
+    iconX2Url: "My-SmartThings/SmartApps/HEM Reset Manager/Icon Large.png")
 
 preferences {
     section("Choose an Energy Meter to reset:") {
