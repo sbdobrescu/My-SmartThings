@@ -15,13 +15,13 @@
  *
  */
 definition(
-    name: "HEM Daily Reset Manager"
+    name: "HEM Daily Reset Manager",
     namespace: "jasonrwise77",
-    author: "Jason Wise",
+    author: "jasonrwise77",
     description: "Resets the Energy Monitor Daily on a specified time",
     category: "My Apps",
-    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
-    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png")
+    iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon.png",
+    iconX2Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon.png")
 
 preferences {
     section("Choose an Energy Meter to reset:") {
