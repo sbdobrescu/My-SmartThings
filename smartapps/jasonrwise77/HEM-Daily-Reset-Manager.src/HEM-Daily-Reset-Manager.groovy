@@ -20,7 +20,7 @@ definition(
     author: "Jason Wise",
     description: "Resets the Energy Monitor Daily on a specified time",
     category: "My Apps",
-    iconUrl: "My-SmartThings/SmartApps/HEM Reset Manager/Icon Small.pngonvenience%402x.png"",
+    iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/HEM-Daily-Reset-Manager.src/Icon%20Small.png"",
     iconX2Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/HEM-Daily-Reset-Manager.src/Icon%20Large.png")
 
 preferences {
