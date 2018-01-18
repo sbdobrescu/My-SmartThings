@@ -1,7 +1,6 @@
 /**
  *  Battery Monitor
  *
- *  Copyright 2017
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -14,70 +13,10 @@
  *
  *
  */
-def smartAppNameFull() {
-    return  "Battery Monitor SmartApp"
-}
-
-def smartAppNameShort() {
-    return  "Battery Monitor"
-}
-
-def smartAppVersion() {
-    return  "Version 0.0.5"
-}
-
-def smartAppAuthor() {
-    return  "Author Brandon Gordon"
-}
-
-def smartAppCopyright() {
-    return  "Copyright (c) 2014 Brandon Gordon"
-}
-
-def smartAppSource() {
-    return  "https://github.com/notoriousbdg/SmartThings.BatteryMonitor"
-}
-
-def smartAppDescription() {
-    return  "This SmartApp helps you monitor the status of your SmartThings devices with batteries."
-}
-
-def smartAppRevision () {
-    return  '2014-11-14  v0.0.1\n' +
-            ' * Initial release\n\n' +
-            '2014-11-15  v0.0.2\n' +
-            ' * Moved status to main page\n' +
-            ' * Removed status page\n' +
-            ' * Improved formatting of status page\n' +
-            ' * Added low, medium, high thresholds\n' +
-            ' * Handle battery status strings of OK and Low\n\n' +
-            '2014-11-15  v0.0.3\n' +
-            ' * Added push notifications\n\n' +
-            '2014-11-20  v0.0.4\n' +
-            ' * Added error handling for batteries that return strings\n\n' +
-            '2014-12-26  v0.0.5\n' +
-            ' * Move app metadata to a new about page\n' +
-            ' * Changed notifications to only send at specified time daily\n'
-}
-
-def smartAppLicense() {
-    return  'Licensed under the Apache License, Version 2.0 (the "License"); you ' +
-            'may not use this file except in compliance with the License. You ' +
-            'may obtain a copy of the License at:' +
-            '\n\n' +
-            'http://www.apache.org/licenses/LICENSE-2.0' +
-            '\n\n' +
-            'Unless required by applicable law or agreed to in writing, software ' +
-            'distributed under the License is distributed on an "AS IS" BASIS, ' +
-            'WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or ' +
-            'implied. See the License for the specific language governing ' +
-            'permissions and limitations under the License.'
-}
-
 definition(
     name: "Battery Monitor",
     namespace: "jasonrwise77",
-    author: "Brandon Gordon",
+    author: "Jason Wise",
     description: "Battery Level Monitor.",
     category: "Convenience",
     iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/battery-monitor.src/icon.png",
