@@ -15,11 +15,11 @@
  *
  */
 def smartAppNameFull() {
-    return  "BatteryMonitor SmartApp for SmartThings"
+    return  "Battery Monitor SmartApp"
 }
 
 def smartAppNameShort() {
-    return  "BatteryMonitor"
+    return  "Battery Monitor"
 }
 
 def smartAppVersion() {
