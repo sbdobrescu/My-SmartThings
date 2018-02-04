@@ -19,9 +19,9 @@ definition(
 		author: "Kevin LaFramboise",
 		description: "Provides integration with other hub bridge.",
 		category: "My Apps",
-   		iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/push-events.src/icon.png",
-       		iconX2Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/push-events.src/icon.png",
-                iconX3Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/push-events.src/icon.png")
+   		iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/Other-Hub-Bridge-Service-Manager.src/icon.png",
+       		iconX2Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/Other-Hub-Bridge-Service-Manager.src/icon.png",
+                iconX3Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/Other-Hub-Bridge-Service-Manager.src/icon.png")
 
 
 preferences {
