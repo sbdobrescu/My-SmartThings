@@ -19,8 +19,8 @@
 /**********************************************************************************************************************************************/
 definition(
     name		: "Routines Maker",
-    namespace	: "jasonrwise77",
-    author		: "/* 
+    namespace		: "jasonrwise77",
+    author		: "jasonrwise77"/* 
  * Routine Maker - from the creators of EchoSistant  
  *
  *	12/07/2017		Version:1.0 R.0.0.2		Bug fixes and addition of new triggers
