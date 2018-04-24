@@ -13,7 +13,7 @@
  */
 
 metadata {
-    definition (name: "Hue Motion Sensor", namespace: "jasonrwise77", author: "Jason Wise") {
+    definition definition (name: "Hue Motion Sensor", namespace: "digitalgecko", author: "digitalgecko") {
 
         
 		capability "Motion Sensor"
