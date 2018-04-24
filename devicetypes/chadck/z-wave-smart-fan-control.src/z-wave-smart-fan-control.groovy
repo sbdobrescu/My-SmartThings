@@ -1,5 +1,5 @@
 /**
- *  Z Wave Smart Fan Control
+ *  Z-Wave Smart Fan Control
  * 
  *  A better functional Device Type for Z-Wave Smart Fan Control Switches
  *  Particularly the GE 12730 Z-Wave Smart Fan Control.
@@ -17,7 +17,7 @@
  *
  */
 metadata {
-	definition (name: "Z Wave Smart Fan Control", namespace: "chadck", author: "ChadCK") {
+	definition (name: "Z-Wave Smart Fan Control", namespace: "chadck", author: "ChadCK") {
 		capability "Switch Level"
 		capability "Actuator"
 		capability "Indicator"
