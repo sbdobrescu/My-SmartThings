@@ -64,8 +64,8 @@ definition(
     author: "Brandon Gordon",
     description: "SmartApp to monitor battery levels.",
     category: "Convenience",
-    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
-    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png")
+    iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/notoriousbdg/batterymonitor.src/icon.png",
+    iconX2Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/notoriousbdg/batterymonitor.src/icon.png")
 
 preferences {
     page name:"pageStatus"
