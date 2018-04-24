@@ -17,7 +17,7 @@
  *
  */
 metadata {
-	definition (name: "Z Wave Smart Fan Control", namespace: "ChadCK", author: "ChadCK") {
+	definition (name: "Z Wave Smart Fan Control", namespace: "chadck", author: "ChadCK") {
 		capability "Switch Level"
 		capability "Actuator"
 		capability "Indicator"
