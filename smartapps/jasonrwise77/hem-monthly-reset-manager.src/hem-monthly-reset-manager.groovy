@@ -21,9 +21,9 @@ definition(
     author: "Jason Wise",
     description: "Resets the HEM on a specified day/time of every month",
     category: "My Apps",
-    iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon.png",
-    iconX2Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon.png",
-    iconX3Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-daily-reset-manager.src/icon.png"
+    iconUrl: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-monthly-reset-manager.src/HEM%20Monthly.png",
+    iconX2Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-monthly-reset-manager.src/HEM%20Monthly.png",
+    iconX3Url: "https://raw.githubusercontent.com/jasonrwise77/My-SmartThings/master/smartapps/jasonrwise77/hem-monthly-reset-manager.src/HEM%20Monthly.png"
     )
 
 preferences {
