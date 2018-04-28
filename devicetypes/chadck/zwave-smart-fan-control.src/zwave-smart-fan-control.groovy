@@ -1,5 +1,5 @@
 /**
- *  ZWave Smart Fan Control
+ *  Z-Wave Smart Fan Control
  * 
  *  A better functional Device Type for Z-Wave Smart Fan Control Switches
  *  Particularly the GE 12730 Z-Wave Smart Fan Control.
