@@ -14,16 +14,15 @@
  *
 /**********************************************************************************************************************************************/
 definition(
-    name: "Ceiling Fans",
-    namespace: "LawsonAutomation",
-    author: "Tom Lawson",
-    description: "Turns ceiling fans on when too warm, and off when comfortable or away. " + 
-    			 "Motion sensors can be added to also turn ceiling fans off when not in the room. " + 
-                 "Install separate instances of Ceiling Fan Guru when rooms have different mode or motion sensor requirements.",
-    category: "Green Living",
-    iconUrl: "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-60.png",
-    iconX2Url: "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-120.png",
-    iconX3Url: "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-120.png")
+    name    	: "Ceiling Fans",
+    namespace	: "LawsonAutomation",
+    author      : "JW",
+    description	: "Child App, DO NOT INSTALL DIRECTLY",
+    parent		: "LawsonAutomation:Fan Guru",     
+	category	: "My apps",
+    iconUrl		: "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-60.png",
+    iconX2Url	: "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-120.png",
+    iconX3Url	: "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-120.png")
 
 /**********************************************************************************************************************************************/
 preferences {
