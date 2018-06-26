@@ -14,17 +14,46 @@
  *
 /**********************************************************************************************************************************************/
 definition(
-    name: "Fan Guru",
-    namespace: "LawsonAutomation",
-    author: "Tom Lawson",
-    description: "Turns ceiling fans on when too warm, and off when comfortable or away. " + 
-    			 "Motion sensors can be added to also turn ceiling fans off when not in the room. " + 
-                 "Install separate instances of Ceiling Fan Guru when rooms have different mode or motion sensor requirements.",
-    category: "Green Living",
-    iconUrl: "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-60.png",
-    iconX2Url: "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-120.png",
-    iconX3Url: "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-120.png")
+    name        : "Fan Guru",
+    namespace   : "LawsonAutomation",
+    author      : "JW",
+    description : "Control your fan, create new applications within this app",
+    category	: "My Apps",
+    iconUrl     : "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-60.png",
+    iconX2Url   : "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-120.png",
+    iconX3Url   : "https://raw.githubusercontent.com/lawsonautomation/icons/master/guru-120.png")
 
 /**********************************************************************************************************************************************/
 preferences {
- 
+	page(name: "main")
+}
+
+page name: "main"
+            def main() {
+                dynamicPage (name: "main", title: "", install: true, uninstall: true) { 
+                section("Fan Profiles",  uninstall: false){
+               app(name: "profiles", appName: "Ceiling Fans", namespace: "LawsonAutomation", title: "Create a new Fan Profile", multiple: true,  uninstall: false)
+                        }
+                    }
+}
+
+/************************************************************************************************************
+		Base Process
+************************************************************************************************************/
+def installed() {
+	if (debug) log.debug "Installed with settings: ${settings}"
+    initialize()
+}
+def updated() { 
+	if (debug) log.debug "Updated with settings: ${settings}"
+    unsubscribe()
+    initialize()
+}
+def initialize() {
+		state.esProfiles = state.esProfiles ? state.esProfiles : []
+        def children = getChildApps()
+}
+
+def getProfileList(){
+		return getChildApps()*.label
+}
